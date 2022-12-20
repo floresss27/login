@@ -1,10 +1,10 @@
 import React from "react";
-import { BaseBackgroudLogin } from "../../views/components/base";
-import { Inputs } from "../../views/components/inputs";
-
+import { Inputs } from "views/components/inputs/";
+import {Main} from './styles'
 
 export const Login = () => {
-    return (
-            <BaseBackgroudLogin/>
+    return(
+        <Main>
+        </Main>
     )
-}
+    }
